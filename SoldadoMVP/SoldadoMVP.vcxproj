@@ -128,6 +128,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Presenter.cpp" />
+    <ClCompile Include="Soldier.cpp" />
+    <ClCompile Include="View.cpp" />
+    <ClCompile Include="weapon.cpp" />
+    <ClCompile Include="weapon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Escopeta.h" />
+    <ClInclude Include="Presenter.h" />
+    <ClInclude Include="Revolver.h" />
+    <ClInclude Include="Rifle.h" />
+    <ClInclude Include="Soldier.h" />
+    <ClInclude Include="View.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
